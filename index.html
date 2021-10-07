@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/lightslider.css"/>
+        <script type="text/javascript" src="assets/js/lightslider.js"></script>
+        <title>DIVYA CLASSES</title>
+    </head>
+    <body>
+        <ua id="home"></ua>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="brnd">
+                    <a href="#" class="nav__logo"><img src="assets/img/d.png"></a>
+                    <a href="#" class="nav__logo"> DIVYA CLASSES</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                   <hr>
+                   <hr>
+                   <hr>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <hr>
+                        <hr>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+           
+        </header>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/img6.png" alt="" class="d3">
+                        <img src="assets/img/img1.png" alt="">
+                        <img src="assets/img/img2.png" alt="" >
+                        <img src="assets/img/img3.png" alt="" >
+                        <img src="assets/img/img4.png" alt=""  >
+                        <img src="assets/img/img5.png" alt=""  >
+                         
+                    </div>
+
+                    <div class="home__data">
+                            <div class="home__title">
+                    <p>
+                    <span class="word ">thankyou</span>
+                    <span class="word ">hello</span>
+                    <span class="word " id="lblGreetings">
+                     <script>
+                         var myDate = new Date();
+                         var hrs = myDate.getHours();
+                         var greet;
+                         if (hrs < 12)
+                             greet = 'Good-Morning';
+                         else if (hrs >= 12 && hrs <= 17)
+                             greet = 'Good-Afternoon';
+                         else if (hrs >= 17 && hrs <= 24)
+                             greet = 'Good-Evening';
+                         document.getElementById('lblGreetings').innerHTML =
+                             '' + greet + ''
+                     </script>
+                    </span>
+                    <span class="word ">welcome-to</span>
+                    <span class="word ">divya-classes</span>
+                  </p>
+                </div>
+                        <p class="home__description">An institute of science and maths. Explore the site to know more about DIVYA CLASSES</p><br>
+                        <a href="#" class="home__button">Get Started</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section  id="about">
+            <div class="about">
+
+            </div>
+            <div class="classroom">
+<div class="classroom-list-con">
+    <div class="classroom-list-con-inner">
+        <div class="teacher-page-heading" style="font-size: x-large;">
+            Classrooms
+            <a class="view-more-btn" target="_blank" href="https://divyaclassesnke.teachmint.in/classrooms" onclick="viewAllBtnClicked('WEBSTORE_VIEW_ALL_CLICK', 'classrooms');">View All</a>
+        </div>
+        <div class="classroom-con-outer">
+            <div class="classroom-con" id="classroom-con" onscroll="handleMouseScroll('classroom-con')">--
+                <!-- display all classes  -->
+                <div class="classroom-item">
+                    <div class="name">10th</div>
+                    <!-- Subject Tags -->
+                    <div class="subject">
+                        <div class="subject-tag">Maths &amp; Science</div>
+                    </div>
+                    <!-- Desc -->
+                    <div class="desc">
+                        In this classroom, we will cover the entire syllabus of Maths &amp; Science as prescribed by C
+                        <span id="class-more-content-0" class="more-content" style="display: inline;">BSE for standard 10th.
+There would be weekly doubt clearing sessions along with chapter wise test and many more.</span>
+                    </div>
+                    <a class="contact-btn" href="https://divyaclassesnke.teachmint.in/classroom/0514d9bb-35ae-4782-88fa-48b2d2ca3996">View&nbsp;Details</a>
+                </div>
+                <div class="classroom-item">
+                    <div class="name">9th</div>
+                    <!-- Subject Tags -->
+                    <div class="subject">
+                        <div class="subject-tag">Maths &amp; Science</div>
+                       </div>
+                    <div class="desc">
+                        In this classroom, we will cover the entire syllabus of Maths &amp; Science as prescribed by CBSE
+                        <span id="class-more-content-1" class="more-content" style="display: inline;"> for standard 9th.
+There would be weekly doubt clearing sessions along with chapter wise test and many more.</span>
+                    </div>
+                    <a class="contact-btn" href="https://divyaclassesnke.teachmint.in/classroom/0514d9bb-35ae-4782-88fa-48b2d2ca3996">View&nbsp;Details</a>
+                </div>
+                <div class="classroom-item">
+                    <div class="name">8th</div>
+                    <!-- Subject Tags -->
+                    <div class="subject"> 
+                        <div class="subject-tag">Maths &amp; Science</div>
+                    </div>
+                    <div class="desc">
+                        In this classroom, we will cover the entire syllabus of Maths &amp; Science as prescribed by CBSE
+                        <span id="class-see-more-content-2" class="see-more" onclick="showHideClassDesc(2, 0)" style="display: none;"><span style="color: #6b82ab">...</span> See
+                            More</span>
+                        <span id="class-more-content-2" class="more-content" style="display: inline;">for standard 8th.
+There would be weekly doubt clearing sessions along with chapter wise test and many more.</span>
+                      </div>
+                    <a class="contact-btn" href="https://divyaclassesnke.teachmint.in/classroom/5db83b69-f1eb-44c2-8cdb-9c8530d98f8f">View&nbsp;Details</a>
+                </div>
+            </div></div>
+    </div>
+</div>
+            </div>
+        </section>
+        <section class="blog" id="blog">
+            <div class="container">
+            <h1 style="font-family: uaworld; font-size: 40px;font-weight: lighter;">HAPPY STUDENTS</h1>
+		<!--slider------------------->
+		<ul id="autoWidth" class="cs-hidden">
+		<!--1------------------------------>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+  <li class="item-a">
+		<div class="box">
+		<p class="marvel">DIVYA CLASSES</p>
+        <div>
+		<img src="assets/img/male.png" class="model">
+        </div>
+		<div class="details">
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+        <h3>-ujjwal</h3>
+		</div>
+		</div>
+		</li>
+
+		</ul>
+		
+	</div>
+        </section>
+
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/script.js"></script>
+      <script src="assets/js/custom.js"></script>
+    </body>
+</html>
