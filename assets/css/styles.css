@@ -27,15 +27,15 @@
 }
 @font-face {
   font-family:uaworld1;
-  src: url(/website/assets/font/AUworld\ \(2\).TTF);
+  src: url(/assets/font/AUworld\ \(2\).TTF);
 }
 @font-face {
   font-family: uaworld;
-  src: url(/website/assets/font/uaworld.ttf);
+  src: url(/assets/font/uaworld.ttf);
 }
 @font-face {
   font-family: auworld;
-  src: url(/website/assets/font/auworld.ttf);
+  src: url(/assets/font/auworld.ttf);
 }
 
 /*===== BASE =====*/
