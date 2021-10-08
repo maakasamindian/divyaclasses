@@ -27,15 +27,15 @@
 }
 @font-face {
   font-family:uaworld1;
-  src: url(/assets/font/AUworld\ \(2\).TTF);
+  src: url(/website/assets/font/AUworld\ \(2\).TTF);
 }
 @font-face {
   font-family: uaworld;
-  src: url(/assets/font/uaworld.ttf);
+  src: url(/website/assets/font/uaworld.ttf);
 }
 @font-face {
   font-family: auworld;
-  src: url(/assets/font/auworld.ttf);
+  src: url(/website/assets/font/auworld.ttf);
 }
 
 /*===== BASE =====*/
@@ -72,26 +72,45 @@ img{
   height: auto;
 }
 .loader_bg {
-     position: fixed;
-     z-index: 9999999;
-     background: #fff;
-     width: 100%;
-     height: 100%;
+  top: 0;
+  position:fixed;
+  width: 100%;
+  height:900px;
+  z-index: 1000000;
+  background: linear-gradient(45deg, #333, #4c4a4a);
+  align-items: center;
+  justify-content: center;
 }
 
-.loader {
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+
+.load {
+  width: 100%;
+  margin: 20px;
+  top: 50%;
+  font-family: auworld;
+  position: fixed;
+  color: #212121;
+  text-transform: uppercase;
+  border-bottom: 18px solid #212121;
+}
+.load:before {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: "divya classes";
+  color: #00ffff;
+  border-bottom: 18px solid #00ffff;
+  animation: loading 4s infinite linear;
 }
 
-.loader img {
-     width: 280px;
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 /*===== LAYOUT =====*/
 .bd-grid{
@@ -386,8 +405,8 @@ p {
 
 .about{
   width: 100%;
-  height: 600px;
-  background: #00b8c5;
+  height: 1350px;
+  background: #dedede;
   
 }
 /*===*/
@@ -528,4 +547,156 @@ p {
     bottom: 10px;
     text-decoration: none;
     text-align: center;
+}
+
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.wrapper,
+.wrapper .img-area,
+.social-icons a,
+.buttons button,.gitem, .image-box img{
+  box-shadow: -3px -3px 7px #ffffff,
+               3px 3px 5px #002d38;
+}
+.wrapper{
+  position: relative;
+  width: 100%;
+  margin: 20px;
+  height: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper .icon{
+  font-size: 17px;
+  color: #31344b;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.7;
+  top: 15px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 16px;
+}
+.wrapper .icon i{
+  position: relative;
+  z-index: 9;
+}
+.wrapper .icon.arrow{
+  left: 15px;
+}
+.wrapper .icon.dots{
+  right: 15px;
+}
+.wrapper .img-area{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-area .inner-area{
+  height: calc(110% - 25px);
+  width: calc(110% - 25px);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.inner-area img{
+  height: 110%;
+  width: auto;
+}
+.wrapper .name{
+  font-size: 200%;
+  font-family: auworld;
+  font-weight: 800;
+  color: #02072e;
+  margin: 10px 0 5px 0;
+}
+.wrapper .about{
+  text-align: center;
+  color: #44476a;
+  font-weight: 400;
+  font-size: 16px;
+}
+.wrapper .social-icons{
+  margin: 15px 0 25px 0;
+}
+.social-icons a{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.social-icons a:hover::before,
+.wrapper .icon:hover::before,
+.buttons button:hover:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: #ecf0f3;
+  box-shadow: inset -3px -3px 7px #ffffff,
+              inset 3px 3px 5px #ceced1;
+}
+.buttons button:hover:before{
+  z-index: -1;
+  border-radius: 5px;
+}
+.social-icons a i{
+  font-size: xx-large;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 4px 0px 0px 4px;
+}
+.social-icons a.fb i{
+  color: #4267B2;
+}
+.social-icons a.twitter i{
+  color: #1DA1F2;
+}
+.social-icons a.insta i{
+  color: #f50909;
+}
+.social-icons a.yt i{
+  color: #ff0000;
+}
+.wrapper .buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.feture {
+  display: contents;
+}
+.feture li{
+  margin: 1px;
+  border-radius: 50px;
+  width: 100%;
+  height: 40px;
+  background: #edf3f7;
+  box-shadow: inset -3px -3px 7px #ffffff,
+              inset 3px 3px 5px #ceced1;
+}
+.feture h1{
+  text-align: center;
+  margin-top: 10px;
 }
