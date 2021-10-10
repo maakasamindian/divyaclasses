@@ -27,15 +27,15 @@
 }
 @font-face {
   font-family:uaworld1;
-  src: url(/assets/font/AUworld\ \(2\).TTF);
+  src: url(/website/assets/font/AUworld\ \(2\).TTF);
 }
 @font-face {
   font-family: uaworld;
-  src: url(/assets/font/uaworld.ttf);
+  src: url(/website/assets/font/uaworld.ttf);
 }
 @font-face {
   font-family: auworld;
-  src: url(/assets/font/auworld.ttf);
+  src: url(/website/assets/font/auworld.ttf);
 }
 
 /*===== BASE =====*/
@@ -46,9 +46,8 @@ html{scroll-behavior: smooth;}
 body{
   margin: var(--header-height) 0 0 0;
   padding: 0;
-  font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  font-weight: 500;
+  font-weight: lighter;
   color: #00302d;
   font-family: uaworld1;
   font-weight: 100;
@@ -558,9 +557,9 @@ p {
 .wrapper,
 .wrapper .img-area,
 .social-icons a,
-.buttons button,.gitem, .image-box img{
-  box-shadow: -3px -3px 7px #ffffff,
-               3px 3px 5px #002d38;
+.buttons button,.gitem, .image-box img,.wrappe,.button{
+  box-shadow: -3px -3px 7px #ffffff ,
+               3px 3px 5px #002d38 !important;
 }
 .wrapper{
   position: relative;
@@ -691,6 +690,7 @@ p {
   margin: 1px;
   border-radius: 50px;
   width: 100%;
+  font-weight: lighter;
   height: 40px;
   background: #edf3f7;
   box-shadow: inset -3px -3px 7px #ffffff,
@@ -699,4 +699,54 @@ p {
 .feture h1{
   text-align: center;
   margin-top: 10px;
+}
+.contact{
+  background:#dedede;
+}
+.wrappe{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.wra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.wrappe li{
+  margin: 10px;
+}
+
+form{
+  border-radius: 10px;
+  display: inline;
+  width: 100%;
+  background: #dedede;
+}
+form input,form textarea,.button{
+  align-self: center;
+  width: 90%;
+  height: 40px;
+  margin: 5px;
+  border-radius: 70px;
+  content: "";
+  border: 0px;
+  background: #e7eaec;
+  box-shadow: inset -3px -3px 7px #ffffff,
+              inset 3px 3px 5px #ceced1;
+}
+.map iframe{
+  height:100%;
+  width:106%;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+}
+footer{
+  background: var(--first-color);
+  height: 200px;
+  width: 100%;
+  margin-top: -20px;
 }
