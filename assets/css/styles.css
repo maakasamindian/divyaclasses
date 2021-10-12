@@ -9,7 +9,6 @@
   --first-color-dark: #C1576A;
   --first-color-darken: #A83E51;
   --white-color: #012431;
-  
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2.5rem;
@@ -50,7 +49,7 @@ body{
   font-weight: lighter;
   color: #00302d;
   font-family: uaworld1;
-  font-weight: 100;
+  font-weight: 100 !important;
 }
 
 h1,p,ul{
@@ -76,32 +75,15 @@ img{
   width: 100%;
   height:900px;
   z-index: 1000000;
-  background: linear-gradient(45deg, #333, #4c4a4a);
+  background:#1d70bb;
+  text-align: center;
+}
+
+
+.loader_bg img {
   align-items: center;
-  justify-content: center;
 }
 
-
-.load {
-  width: 100%;
-  margin: 20px;
-  top: 50%;
-  font-family: auworld;
-  position: fixed;
-  color: #212121;
-  text-transform: uppercase;
-  border-bottom: 18px solid #212121;
-}
-.load:before {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  content: "divya classes";
-  color: #00ffff;
-  border-bottom: 18px solid #00ffff;
-  animation: loading 4s infinite linear;
-}
 
 @keyframes loading {
   0% {
@@ -152,7 +134,7 @@ img{
   margin-top: 20px;
   font-family: auworld;
   font-weight: 100;
-  font-size: 25px;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -167,7 +149,7 @@ img{
     transition: .5s;
   }
    .home__title{
-    font-size: 60px !important;
+    font-size: 50px !important;
   }
 }
 
@@ -232,12 +214,14 @@ img{
 .home{
   background-color: var(--first-color);
   overflow: hidden;
+  position: relative;
 }
 
 .home__container{
-  height: calc(90vh - var(--header-height));
+  height: calc(- var(--header-height));
   grid-template-rows: repeat(2, max-content);
   row-gap: 1.5rem;
+  margin-bottom: 30px;
 }
 .d3{
   animation: d3 5s infinite;
@@ -345,6 +329,11 @@ img{
 
   .home__img img{
     width: 650px;
+  }
+}
+@media screen and (min-width: 400px){
+  .wrapper{
+    width:370px !important;
   }
 }
 
@@ -534,7 +523,7 @@ p {
     .classroom-item
     .contact-btn {
     color: #fff;
-    background-color: #1da1f2;
+    background: radial-gradient(circle at top right,rgb(255, 0, 234) ,rgb(255, 0, 0));
     border-radius: 8px;
     padding: 8px 10px;
     border: none;
@@ -556,10 +545,9 @@ p {
 }
 .wrapper,
 .wrapper .img-area,
-.social-icons a,
 .buttons button,.gitem, .image-box img,.wrappe,.button{
-  box-shadow: -3px -3px 7px #ffffff ,
-               3px 3px 5px #002d38 !important;
+  box-shadow: -3px -3px 7px #00daf7 ,
+               3px 3px 5px #003342 !important;
 }
 .wrapper{
   position: relative;
@@ -573,23 +561,14 @@ p {
   justify-content: center;
   flex-direction: column;
 }
-.wrapper .icon{
+.wrapper svg{
   font-size: 17px;
-  color: #31344b;
+  fill: #000000;
   position: absolute;
   cursor: pointer;
-  opacity: 0.7;
-  top: 15px;
-  height: 35px;
-  width: 35px;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 50%;
-  font-size: 16px;
-}
-.wrapper .icon i{
-  position: relative;
-  z-index: 9;
+  height: 40px;
+  width: 40px;
+  padding:5px 0px 0px 5px;
 }
 .wrapper .icon.arrow{
   left: 15px;
@@ -650,8 +629,8 @@ p {
   right: 0;
   border-radius: 50%;
   background: #ecf0f3;
-  box-shadow: inset -3px -3px 7px #ffffff,
-              inset 3px 3px 5px #ceced1;
+  box-shadow: inset -3px -3px 7px #f8f6f6,
+              inset 3px 3px 5px #000052;
 }
 .buttons button:hover:before{
   z-index: -1;
@@ -689,14 +668,17 @@ p {
 .feture li{
   margin: 1px;
   border-radius: 50px;
+  text-align:center;
+  font-size: larger;
   width: 100%;
-  font-weight: lighter;
+  font-weight: 900;
   height: 40px;
-  background: #edf3f7;
-  box-shadow: inset -3px -3px 7px #ffffff,
-              inset 3px 3px 5px #ceced1;
+  background: radial-gradient(circle at top left,cyan,rgb(0, 132, 255));
+  box-shadow: inset -3px -3px 7px #00ffff,
+              inset 3px 3px 5px #012324;
 }
-.feture h1{
+
+.feture div{
   text-align: center;
   margin-top: 10px;
 }
@@ -740,7 +722,7 @@ form input,form textarea,.button{
 }
 .map iframe{
   height:100%;
-  width:106%;
+  width:100%;
   border-radius: 20px;
   border-bottom: 2px solid black;
 }
@@ -749,4 +731,17 @@ footer{
   height: 200px;
   width: 100%;
   margin-top: -20px;
+  overflow: hidden;
+}
+.address-con{
+ width: 100%;
+ color: #00163a;
+ opacity: 0.8;
+ text-align: center; 
+ margin: 20px 0;
+ font-size: 15px
+}
+footer img{
+  width: calc(100%/7);
+  border-radius:50%;
 }
