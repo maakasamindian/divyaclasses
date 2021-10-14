@@ -50,6 +50,7 @@ body{
   color: #00302d;
   font-family: uaworld1;
   font-weight: 100 !important;
+  overscroll-behavior: none;
 }
 
 h1,p,ul{
