@@ -1,0 +1,55 @@
+:root {
+  --light-color: #fefefe;
+  --dark-color: #333;
+  --sun-color: #FFEE58;
+  --moon-color: #BDBDBD;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  transition: background 300ms;
+}
+
+.body-dark {
+  background: var(--dark-color);
+}
+
+/* Switch */
+.switch-box {
+    width: 50px;
+    height: 20px;
+    background: var(--dark-color);
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.switch-box-dark {
+  background: var(--light-color);
+}
+
+.switch {
+    width: 20px;
+    height: 20px;
+    background: var(--light-color);
+    border-radius: 50%;
+    margin: 0px;
+    cursor: pointer;
+    transition: transform 400ms;
+}
+
+.switch-dark {
+  background: var(--dark-color)
+}
+
+.move-switch {
+    transform: translateX(32px);
+}

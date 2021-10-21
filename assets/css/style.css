@@ -1,0 +1,2067 @@
+
+.teachmint-primary-btn {
+    color: #fff;
+    background-color: #1da1f2;
+    border-radius: 4px;
+    margin-left: 24px;
+    padding: 5px 40px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hide-in-mobile {
+    display: none !important;
+}
+
+.show-in-mobile {
+    display: flex !important;
+}
+.main-para-1 {
+    font-size: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.main-content {
+    margin-top: 150px;
+}
+
+.main-heading-large {
+    font-size: 24px;
+    line-height: 30px;
+    color: #323232;
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.main-heading-small {
+    font-size: 24px;
+    line-height: 32px;
+    color: #323232;
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.main-para-large {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c2c2c;
+}
+
+.main-para-small {
+    font-size: 14px;
+    line-height: 22px;
+    color: #2c2c2c;
+}
+
+.teachmint-color {
+    color: #1da1f2 !important;
+}
+
+.bk-color-f7f7f7 {
+    background-color: #f7f7f7;
+}
+
+.get-started {
+    background-color: #f26e1d;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 7px 30px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.sticky-class {
+    position: sticky;
+    top: 80px;
+    z-index: 2;
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: -10% !important ;
+}
+
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.left-align-imp {
+    text-align: left !important;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 70px !important;
+}
+
+/* index page section one */
+.landing-sec-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto 0px auto;
+    width: 80%;
+}
+.landing-sec-one .text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.landing-sec-one .text-container .text-sub-container {
+    width: 100vw;
+    margin-left: -12%;
+    padding: 15px 10% 45px 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #f7f7f7;
+}
+.landing-sec-one .text-container .download-for-free {
+    margin: 30px 0 5px 0;
+    font-size: 14px;
+    color: #444;
+}
+.landing-sec-one .text-container .play-store-img-btn {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+.landing-sec-one .text-container .play-store-img-btn a {
+    text-decoration: none;
+    width: 95%;
+}
+.landing-sec-one .text-container .play-store-img-btn a:first-child {
+    margin-right: 5%;
+}
+.landing-sec-one .text-container .play-store-img-btn img {
+    width: 100%;
+}
+.landing-sec-one .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.landing-sec-one .image-container img {
+    width: 100%;
+    height: 66.66%;
+}
+
+/* index page section 2 */
+.main-india-one-con {
+    background-color: #fff;
+    margin-top: 20px;
+}
+.main-india-one-con .main-india-one-con-inner {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-india-one-con .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-india-one-con .feature-container .feature-channel-card {
+    margin: 10px 5px;
+    box-shadow: 0px 3px 16px #455b6320;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.main-india-one-con .feature-container .feature-channel-card img {
+    width: 35%;
+}
+.main-india-one-con .feature-container .feature-channel-card .side2 {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-india-one-con .feature-container .feature-channel-card .side2 .heading,
+.sub-heading {
+    width: 100%;
+}
+.main-india-one-con .feature-container .feature-channel-card .side2 .heading {
+    font-size: 25px;
+}
+
+/* testimonial section laptop */
+.testimonial-container {
+    width: 80%;
+    margin: 50px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-container .testimonial-para-txt,
+.testimonial-container .testimonial-para-txt span {
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.testimonial-container .testimonial-carousel {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial-container .testimonial-carousel .testimonial-bg-container {
+    border-radius: 10px;
+}
+
+.testimonial-container .testimonial-carousel .testimonial-img {
+    width: 100%;
+    box-shadow: 0px 3px 16px #455b6320;
+    transition-duration: 1s;
+}
+
+.testimonial-container .testimonial-carousel .testimonial-msg-card {
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    right: 10px;
+    top: 50%;
+    margin: auto;
+    display: table;
+    height: fit-content;
+    height: -moz-fit-content;
+    width: calc(100% - 125px);
+    box-shadow: 0px 3px 16px #455b6320;
+    border-radius: 10px;
+}
+
+.testimonial-container
+    .testimonial-carousel
+    .testimonial-msg-card
+    .testimonial-msg-card-txt {
+    color: #1da1f2;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.testimonial-container
+    .testimonial-carousel
+    .testimonial-msg-card
+    .testimonial-msg-card-name {
+    color: #545863;
+    font-size: 11px;
+    font-family: "Lato";
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.testimonial-container
+    .testimonial-carousel
+    .testimonial-msg-card
+    .testimonial-msg-card-desc {
+    color: #545863;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.testimonial-container
+    .testimonial-carousel
+    .testimonial-msg-card
+    .testimonial-msg-card-see-story {
+    color: #f26e1d;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.testimonial-container .testimonial-carousel-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.testimonial-container
+    .testimonial-carousel-controls
+    .testimonial-carousel-controls-item {
+    font-size: 11px;
+    margin: 7px 0 0 0;
+    padding: 3px 0px;
+    border-top: 3px solid #bbbbbb;
+    color: #bbbbbb;
+    font-family: "Lato";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.testimonial-container
+    .testimonial-carousel-controls
+    .testimonial-carousel-controls-item-selected {
+    border-top: 3px solid #1da1f2;
+    color: #1da1f2;
+}
+
+/* Life Become Easier section */
+.easier-teachmint-con-mobile {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.easier-teachmint-con-mobile .easier-teachmint-sub-heading {
+    text-align: center;
+    font-size: 16px;
+    margin: 0px auto 20px auto;
+    opacity: 0.8;
+    color: #272727;
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.easier-teachmint-con-mobile .four-block-con-mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 40px auto;
+}
+
+.easier-teachmint-con-mobile .four-block-con-mobile .four-block-con-item-outer {
+    width: 100%;
+    box-shadow: 0px 3px 16px #455b6320;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.easier-teachmint-con-mobile .four-block-con-mobile .four-block-con-item {
+    border-bottom: 1px solid #dbe2ea80;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 130px;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item
+    .item-img-con {
+    width: 80px;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item-outer
+    .four-block-con-item:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item-outer
+    .four-block-con-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item
+    .item-img-con
+    img {
+    width: 100%;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item
+    .item-txt-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item
+    .item-txt-con
+    .item-txt-heading {
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 500;
+    color: #545863;
+}
+
+.easier-teachmint-con-mobile
+    .four-block-con-mobile
+    .four-block-con-item
+    .item-txt-con
+    .item-txt-learn-more {
+    margin-top: 10px;
+    color: #545863;
+    opacity: 0.69;
+    font-size: 11px;
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+/* steps section */
+.main-steps-con {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-steps-con .main-steps-con-inner {
+    width: 80%;
+    margin: 30px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-steps-con .main-steps-con-get-started {
+    background-color: #f26e1d;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 7px 30px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-steps-con .main-steps-item-con {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-steps-con .main-steps-item-con .main-step-item {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main-steps-con .main-steps-item-con .main-step-item .main-step-item-txt-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .main-step-item-txt-no {
+    font-size: 100px;
+    opacity: 0.5;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .main-step-item-txt-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .main-step-item-txt-content
+    .step-heading {
+    width: 100%;
+    font-size: 20px;
+    color: #062030;
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .main-step-item-txt-content
+    .step-desc {
+    width: 100%;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 500;
+    color: #697982;
+    margin-top: 10px;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .step-one-color {
+    color: #f26e1d;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .step-two-color {
+    color: #1da1f2;
+}
+
+.main-steps-con
+    .main-steps-item-con
+    .main-step-item
+    .main-step-item-txt-con
+    .step-three-color {
+    color: #0bb84c;
+}
+
+.main-steps-con .main-steps-item-con .main-step-item .main-step-gif-part {
+    width: 100%;
+}
+
+.main-steps-con .main-steps-item-con .main-step-item .main-step-gif-part img,
+.main-steps-con .main-steps-item-con .main-step-item .main-step-gif-part video {
+    width: 100%;
+    height: 100%;
+}
+
+/* featured section  */
+.main-featured-con {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-featured-con .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-featured-con .feature-container .feature-channel-card {
+    margin: 10px 5px;
+    box-shadow: 0px 3px 16px #455b6320;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    height: auto;
+    padding: 12px 5px;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+.main-featured-con .feature-container .feature-channel-card img {
+    width: 100%;
+}
+
+.main-featured-con .feature-container .feature-channel-card:hover {
+    transform: scale(1.1);
+}
+
+/* Join Fb commmunity section */
+.landing-fb-community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 80%;
+}
+.landing-fb-community .text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.landing-fb-community .text-container a {
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+}
+.landing-fb-community .text-container a .btn {
+    color: #1da1f2;
+    border: 2px solid #1da1f2;
+    border-radius: 4px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 16px auto;
+}
+.landing-fb-community .text-container a .btn img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.landing-fb-community .text-container .play-btn-con {
+    width: 100%;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.landing-fb-community .text-container .play-btn-con .btn-play {
+    width: 100%;
+}
+.landing-fb-community .text-container .play-btn-con .btn-play:first-child {
+    margin-right: 0%;
+}
+
+.landing-fb-community .text-container .play-btn-con .btn-play a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.landing-fb-community .text-container .play-btn-con .btn-play img {
+    width: 172px;
+}
+
+.landing-fb-community .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto;
+}
+.landing-fb-community .image-container img {
+    width: 100%;
+    height: 66.66%;
+}
+
+/* 404 page  */
+.four-zero-four-con {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.four-zero-four-con .heading {
+    font-size: 150px;
+    line-height: 150px;
+    color: #1da1f2;
+    width: 100%;
+}
+
+.four-zero-four-con .desc {
+    font-size: 20px;
+    color: #555;
+    width: 100%;
+}
+
+.four-zero-four-con a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #222;
+    width: 100%;
+    font-weight: 900;
+}
+
+.download-banner {
+    width: 100vw;
+    padding: 15px 13px;
+    background: #f2faff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-banner .title {
+    font-size: 16px;
+    line-height: 18px;
+    color: #1f3965;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.download-banner .btn {
+    padding: 8px 18px;
+    background: #1da1f2;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+/* Top Banner */
+.main-banner-con {
+    background: linear-gradient(89.98deg, #0a092b 0%, #104297 99.98%);
+    display: none;
+}
+.main-banner-con .main-banner-con-inner {
+    padding: 15px 5%;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    font-size: 20px;
+}
+.main-banner-con .main-banner-con-inner a {
+    text-decoration: none;
+    color: #ffcd56;
+}
+.main-banner-con .main-banner-con-inner a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    .hide-in-mobile {
+        display: flex !important;
+    }
+
+    .show-in-mobile {
+        display: none !important;
+    }
+
+    .teachmint-primary-btn {
+        margin-left: 24px;
+        padding: 5px 40px;
+        font-size: 15px;
+    }
+
+    .main-content {
+        margin-top: 84px;
+    }
+
+    .main-heading-large {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .main-heading-small {
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .main-para-large {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .main-para-small {
+        font-size: 1.5em;
+        line-height: 1em;
+        color: #2c2c2c;
+    }
+
+    .get-started {
+        background-color: #f26e1d;
+        padding: 7px 30px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Lato";
+        font-weight: 600;
+    }
+
+    /* index page section one */
+    .landing-sec-one {
+        margin: 70px auto;
+    }
+    .landing-sec-one .text-container {
+        width: 50%;
+    }
+    .landing-sec-one .text-container .text-sub-container {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0px;
+        background-color: #fff;
+    }
+    .landing-sec-one .text-container .download-for-free {
+        margin: 30px 0 5px 0;
+        font-size: 16px;
+    }
+    .landing-sec-one .text-container .play-store-img-btn {
+        flex-direction: column;
+    }
+
+    .landing-sec-one .text-container .play-store-img-btn img {
+        width: 200px;
+    }
+
+    .landing-sec-one .image-container {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .landing-sec-one .image-container img {
+        width: 90%;
+    }
+
+    /* index page section 2 */
+    .main-india-one-con {
+        background-color: #f7f7f7;
+        padding: 30px;
+        margin-top: 0px;
+    }
+    .main-india-one-con .main-india-one-con-inner {
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    .main-india-one-con .feature-container {
+        justify-content: center;
+    }
+    .main-india-one-con .feature-container .feature-channel-card {
+        width: 45%;
+    }
+
+    .main-india-one-con
+        .feature-container
+        .feature-channel-card
+        .side2
+        .heading {
+        font-size: 25px;
+    }
+
+    /* testimonial section laptop */
+    .testimonial-container {
+        width: 80%;
+        max-width: 1144px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .testimonial-container .testimonial-para-txt,
+    .testimonial-container .testimonial-para-txt span {
+        font-size: 16px;
+        font-family: "Lato";
+        font-weight: 600;
+        opacity: 0.7;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .testimonial-container .testimonial-carousel {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .testimonial-container .testimonial-carousel .testimonial-img {
+        width: 100%;
+        box-shadow: 0px 3px 16px #455b6320;
+        transition-duration: 1s;
+    }
+
+    .testimonial-container .testimonial-carousel .testimonial-msg-card {
+        position: absolute;
+        background-color: #fff;
+        padding: 20px;
+        right: 30px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        width: 250px;
+        box-shadow: 0px 3px 16px #455b6320;
+        border-radius: 10px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-txt {
+        color: #1da1f2;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-name {
+        color: #545863;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-desc {
+        color: #545863;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-see-story {
+        color: #f26e1d;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .testimonial-container .testimonial-carousel-controls {
+        margin: 20px auto 10px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .testimonial-container
+        .testimonial-carousel-controls
+        .testimonial-carousel-controls-item {
+        margin: 0px 10px;
+        padding: 5px 20px;
+        border-top: 3px solid #bbbbbb;
+        color: #bbbbbb;
+        font-size: 13px;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .testimonial-container
+        .testimonial-carousel-controls
+        .testimonial-carousel-controls-item-selected {
+        border-top: 3px solid #1da1f2;
+        color: #1da1f2;
+    }
+
+    /* Easier with teachmint section */
+    .easier-teachmint-con-laptop {
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .easier-teachmint-con-laptop .easier-teachmint-sub-heading {
+        font-size: 18px;
+        opacity: 0.8;
+        color: #272727;
+        font-family: "Lato";
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 900px;
+        margin: 0px auto 30px auto;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con .four-block-con-item-outer {
+        width: 100%;
+        box-shadow: 0px 3px 16px #455b6320;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con.initial,
+    .easier-teachmint-con-laptop .four-block-con.active {
+        opacity: 1;
+        position: relative;
+        z-index: 900;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con.prev,
+    .easier-teachmint-con-laptop .four-block-con.next {
+        z-index: 800;
+    }
+
+    /* Translate previous item to the left */
+    .easier-teachmint-con-laptop .four-block-con.prev {
+        transform: translateX(-100%);
+    }
+
+    /* Translate next item to the right */
+    .easier-teachmint-con-laptop .four-block-con.next {
+        transform: translateX(100%);
+    }
+
+    .easier-teachmint-con-laptop .four-block-con .four-block-con-item {
+        width: 50%;
+        height: 200px;
+        background-color: #fff;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .four-block-con-item-front {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: 200px;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .four-block-con-item-back {
+        padding: 60px;
+        width: 100%;
+        height: 200px;
+        background-color: #3d4347;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item:hover
+        .four-block-con-item-back {
+        opacity: 1;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:first-child,
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:first-child
+        .four-block-con-item-front,
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:first-child
+        .four-block-con-item-back {
+        border-bottom: 1px solid #dbe2ea80;
+        border-right: 1px solid #dbe2ea80;
+        border-top-left-radius: 10px;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(2),
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(2)
+        .four-block-con-item-front,
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(2)
+        .four-block-con-item-back {
+        border-top-right-radius: 10px;
+        border-bottom: 1px solid #dbe2ea80;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(3),
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(3)
+        .four-block-con-item-front,
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(3)
+        .four-block-con-item-back {
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid #dbe2ea80;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(4),
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(4)
+        .four-block-con-item-front,
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item-outer
+        .four-block-con-item:nth-child(4)
+        .four-block-con-item-back {
+        border-bottom-right-radius: 10px;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-img-con
+        img {
+        width: 100%;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        width: 30%;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con
+        .item-txt-heading {
+        font-size: 15px;
+        font-family: "Lato";
+        font-weight: 500;
+        color: #545863;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con
+        .item-txt-learn-more {
+        margin-top: 25px;
+        color: #545863;
+        opacity: 0.69;
+        font-size: 11px;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .easier-teachmint-con-laptop .easier-teachmint-carousel-controls {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .easier-teachmint-con-laptop
+        .easier-teachmint-carousel-controls
+        .easier-teachmint-carousel-controls-item {
+        font-size: 13px;
+        margin: 10px 3px;
+        padding: 3px 0px;
+        border-top: 5px solid #bbbbbb;
+        color: #bbbbbb;
+        font-family: "Lato";
+        font-weight: 500;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .easier-teachmint-con-laptop
+        .easier-teachmint-carousel-controls
+        .easier-teachmint-carousel-controls-item-selected {
+        border-top: 5px solid #1da1f2;
+        color: #1da1f2;
+    }
+
+    /* steps section */
+
+    .main-steps-con {
+        background-color: #f7f7f7;
+        width: 100%;
+    }
+
+    .main-steps-con .main-steps-con-inner {
+        width: 80%;
+        margin: 10px auto 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-steps-con .main-steps-con-get-started {
+        background-color: #f26e1d;
+        padding: 7px 30px;
+        border-radius: 20px;
+        margin: auto;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Lato";
+        font-weight: 600;
+    }
+
+    .main-steps-con .main-steps-item-con {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .main-steps-con .main-steps-item-con .main-step-item {
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-no {
+        font-size: 90px;
+        opacity: 0.5;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content
+        .step-heading {
+        width: 100%;
+        font-size: 23px;
+        color: #062030;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content
+        .step-desc {
+        width: 100%;
+        font-size: 18px;
+        font-family: "Lato";
+        font-weight: 500;
+        color: #697982;
+        margin-top: 15px;
+    }
+
+    .main-steps-con .main-steps-item-con .main-step-item .main-step-gif-part {
+        width: 40%;
+    }
+
+    /* featured section  */
+    .main-featured-con {
+        margin: 70px auto;
+    }
+
+    .main-featured-con .feature-container {
+        justify-content: center;
+    }
+
+    .main-featured-con .feature-container .feature-channel-card {
+        margin: 15px 10px;
+        border-radius: 8px;
+        width: 25%;
+        padding: 25px 17px;
+    }
+
+    /* Join Fb commmunity section */
+    .landing-fb-community {
+        margin: 70px auto;
+        width: 80%;
+    }
+
+    .landing-fb-community .text-container {
+        width: 35%;
+    }
+
+    .landing-fb-community .text-container a {
+        width: 100%;
+        text-decoration: none;
+        margin: 20px auto;
+    }
+
+    .landing-fb-community .text-container .play-btn-con {
+        margin: 25px auto;
+    }
+    .landing-fb-community .text-container .play-btn-con .btn-play {
+        width: 170px;
+    }
+    .landing-fb-community .text-container .play-btn-con .btn-play:first-child {
+        margin-right: 10px;
+    }
+
+    .landing-fb-community .image-container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .landing-fb-community .image-container img {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .teachmint-primary-btn {
+        margin-left: 24px;
+        padding: 5px 40px;
+        font-size: 18px;
+    }
+
+    .main-content {
+        margin-top: 135px;
+    }
+
+    .main-heading-large {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .main-heading-small {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .main-para-large {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .main-para-small {
+        font-size: 20px;
+        line-height: 19px;
+        color: #2c2c2c;
+    }
+
+    .get-started {
+        background-color: #f26e1d;
+        padding: 7px 30px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Lato";
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    /* index page section one */
+    .landing-sec-one {
+        margin: auto;
+        padding: 30px 0 0 0;
+        max-width: 1144px;
+    }
+    .landing-sec-one .text-container {
+        width: 50%;
+    }
+    .landing-sec-one .text-container .text-sub-container {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0px;
+        background-color: #fff;
+    }
+    .landing-sec-one .text-container .download-for-free {
+        margin: 70px 0 10px 0;
+        font-size: 18px;
+    }
+    .landing-sec-one .text-container .play-store-img-btn img {
+        width: 200px;
+    }
+    .landing-sec-one .image-container {
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .landing-sec-one .image-container img {
+        width: 100%;
+    }
+
+    /* index page section 2 */
+    .main-india-one-con {
+        background-color: #f7f7f7;
+        padding: 50px 0 70px 0;
+        margin-top: 0px;
+    }
+    .main-india-one-con .main-india-one-con-inner {
+        margin: 0 auto 0 auto;
+        max-width: 1144px;
+    }
+    .main-india-one-con .feature-container .feature-channel-card {
+        width: 30%;
+    }
+
+    .main-india-one-con .feature-container .feature-channel-card img {
+        width: 30%;
+    }
+
+    .main-india-one-con
+        .feature-container
+        .feature-channel-card
+        .side2
+        .heading {
+        font-size: 28px;
+    }
+
+    /* testimonial section laptop */
+    .testimonial-container {
+        margin: 50px auto;
+    }
+
+    .testimonial-container .testimonial-para-txt,
+    .testimonial-container .testimonial-para-txt span {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-container .testimonial-carousel {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .testimonial-container .testimonial-carousel .testimonial-img {
+        width: 100%;
+        box-shadow: 0px 3px 16px #455b6320;
+        transition-duration: 1s;
+    }
+
+    .testimonial-container .testimonial-carousel .testimonial-msg-card {
+        position: absolute;
+        background-color: #fff;
+        padding: 38px;
+        right: 50px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        height: fit-content;
+        width: 350px;
+        box-shadow: 0px 3px 16px #455b6320;
+        border-radius: 10px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-txt {
+        color: #1da1f2;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-name {
+        color: #545863;
+        font-size: 16px;
+        margin-top: 35px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-desc {
+        color: #545863;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial-container
+        .testimonial-carousel
+        .testimonial-msg-card
+        .testimonial-msg-card-see-story {
+        color: #f26e1d;
+        font-family: "Lato";
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .testimonial-container .testimonial-carousel-controls {
+        margin: 30px auto 10px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .testimonial-container
+        .testimonial-carousel-controls
+        .testimonial-carousel-controls-item {
+        margin: 0px 10px;
+        padding: 5px 40px;
+        border-top: 3px solid #bbbbbb;
+        color: #bbbbbb;
+        font-size: 15px;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .testimonial-container
+        .testimonial-carousel-controls
+        .testimonial-carousel-controls-item-selected {
+        border-top: 3px solid #1da1f2;
+        color: #1da1f2;
+    }
+
+    /* Easier with teachmint section */
+    .easier-teachmint-con-laptop {
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .easier-teachmint-con-laptop .easier-teachmint-sub-heading {
+        font-size: 22px;
+        opacity: 0.8;
+        color: #272727;
+        font-family: "Lato";
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        max-width: 900px;
+        margin: 0px auto 30px auto;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con .four-block-con-item-outer {
+        width: 100%;
+        box-shadow: 0px 3px 16px #455b6320;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con.initial,
+    .easier-teachmint-con-laptop .four-block-con.active {
+        opacity: 1;
+        position: relative;
+        z-index: 900;
+    }
+
+    .easier-teachmint-con-laptop .four-block-con.prev,
+    .easier-teachmint-con-laptop .four-block-con.next {
+        z-index: 800;
+    }
+
+    /* Translate previous item to the left */
+    .easier-teachmint-con-laptop .four-block-con.prev {
+        transform: translateX(-100%);
+    }
+
+    /* Translate next item to the right */
+    .easier-teachmint-con-laptop .four-block-con.next {
+        transform: translateX(100%);
+    }
+
+    .easier-teachmint-con-laptop .four-block-con .four-block-con-item {
+        width: 50%;
+        height: 220px;
+        background-color: #fff;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .four-block-con-item-front {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px;
+        height: 220px;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .four-block-con-item-back {
+        padding: 60px;
+        width: 100%;
+        height: 220px;
+        background-color: #565647;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item:hover
+        .four-block-con-item-back {
+        opacity: 1;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-img-con {
+        width: 100px;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-img-con
+        img {
+        width: 100%;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        width: 50%;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con
+        .item-txt-heading {
+        font-size: 18px;
+        font-family: "Lato";
+        font-weight: 500;
+        color: #545863;
+    }
+
+    .easier-teachmint-con-laptop
+        .four-block-con
+        .four-block-con-item
+        .item-txt-con
+        .item-txt-learn-more {
+        margin-top: 25px;
+        color: #545863;
+        opacity: 0.69;
+        font-size: 13px;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .easier-teachmint-con-laptop .easier-teachmint-carousel-controls {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .easier-teachmint-con-laptop
+        .easier-teachmint-carousel-controls
+        .easier-teachmint-carousel-controls-item {
+        font-size: 15px;
+        margin: 15px 3px;
+        padding: 3px 0px;
+        border-top: 3px solid #bbbbbb;
+        color: #bbbbbb;
+        font-family: "Lato";
+        font-weight: 500;
+        width: 150px;
+        text-align: center;
+    }
+
+    .easier-teachmint-con-laptop
+        .easier-teachmint-carousel-controls
+        .easier-teachmint-carousel-controls-item-selected {
+        border-top: 3px solid #1da1f2;
+        color: #1da1f2;
+    }
+
+    /* steps section */
+    .main-steps-con {
+        background-color: #f7f7f7;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .main-steps-con .main-steps-con-inner {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-steps-con .main-steps-con-get-started {
+        background-color: #f26e1d;
+        padding: 7px 30px;
+        border-radius: 20px;
+        color: #fff;
+        margin: auto;
+        font-size: 14px;
+        font-family: "Lato";
+        font-weight: 600;
+    }
+
+    .main-steps-con .main-steps-item-con {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .main-steps-con .main-steps-item-con .main-step-item {
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-no {
+        font-size: 110px;
+        opacity: 0.5;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content
+        .step-heading {
+        width: 100%;
+        font-size: 27px;
+        color: #062030;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .main-steps-con
+        .main-steps-item-con
+        .main-step-item
+        .main-step-item-txt-con
+        .main-step-item-txt-content
+        .step-desc {
+        width: 100%;
+        font-size: 22px;
+        font-family: "Lato";
+        font-weight: 500;
+        color: #697982;
+        margin-top: 15px;
+    }
+
+    .main-steps-con .main-steps-item-con .main-step-item .main-step-gif-part {
+        width: 40%;
+    }
+
+    /* featured section  */
+    .main-featured-con {
+        margin: 50px auto;
+        max-width: 1144px;
+    }
+    .main-featured-con .feature-container .feature-channel-card {
+        margin: 15px 1%;
+        border-radius: 10px;
+        width: 12.2%;
+        padding: 10px 0px;
+    }
+    .main-featured-con .feature-container .feature-channel-card img {
+        width: 90%;
+    }
+
+    /* Join Fb commmunity section */
+    .landing-fb-community {
+        margin: 50px auto;
+        max-width: 1144px;
+    }
+    .landing-fb-community .text-container {
+        width: 35%;
+    }
+    .landing-fb-community .text-container a {
+        width: 100%;
+        text-decoration: none;
+        margin: 20px auto;
+    }
+
+    .landing-fb-community .image-container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .landing-fb-community .image-container img {
+        width: 80%;
+    }
+
+    /* 404 page  */
+    .four-zero-four-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        min-height: 80vh;
+    }
+
+    .four-zero-four-con .heading {
+        font-size: 250px;
+        line-height: 250px;
+    }
+
+    .four-zero-four-con .desc {
+        font-size: 30px;
+    }
+
+    .four-zero-four-con a {
+        font-size: 40px;
+    }
+
+    /* Top Banner */
+    .main-banner-con {
+        display: block;
+    }
+}
+
+/* test css */
+/* Parent wrapper to carousel. Width can be changed as needed. */
+.carousel-wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+/* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
+.carousel-wrapper * {
+    box-sizing: border-box;
+}
+
+/* We'll be using the 'transform' property to move the carousel's items, so setting the 'transform-style' to 'preserve-3d' will make sure our nested elements are rendered properly in the 3D space. */
+.carousel {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* By default we're hiding items (except the initial one) until the JS initiates. Elements are absolutely positioned with a width of 100% (as we're styling for mobile first), letting the content's height dictate the height of the carousel. Our magic property here for all our animation needs is 'transition', taking the properties we wish to animate 'transform' and 'opacity', along with the length of time in seconds. */
+.carousel__photo {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem;
+    z-index: 100;
+    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+
+/* Display the initial item and bring it to the front using 'z-index'. These styles also apply to the 'active' item. */
+.carousel__photo.initial,
+.carousel__photo.active {
+    opacity: 1;
+    position: relative;
+    z-index: 900;
+}
+
+/* Set 'z-index' to sit behind our '.active' item. */
+.carousel__photo.prev,
+.carousel__photo.next {
+    z-index: 800;
+}
+
+/* Translate previous item to the left */
+.carousel__photo.prev {
+    transform: translateX(-100%);
+}
+
+/* Translate next item to the right */
+.carousel__photo.next {
+    transform: translateX(100%);
+}
+
+/* Style navigation buttons to sit in the middle, either side of the carousel. */
+.carousel__button--prev,
+.carousel__button--next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 1001; /* Sit on top of everything */
+    border: 1px solid black;
+    /*  opacity: 0;  Hide buttons until carousel is initialised 
+    transition:opacity 1s;*/
+}
+
+.carousel__button--prev {
+    left: 0;
+}
+
+.carousel__button--next {
+    right: 0;
+}
+
+/* Use pseudo elements to insert arrows inside of navigation buttons */
+.carousel__button--prev::after,
+.carousel__button--next::after {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 54%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.carousel__button--next::after {
+    left: 47%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

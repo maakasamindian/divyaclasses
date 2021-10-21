@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="42" viewBox="0 0 48 42">
+  <defs>
+    <clipPath id="clip-Artboard_5">
+      <rect width="48" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_5" data-name="Artboard – 5" clip-path="url(#clip-Artboard_5)">
+    <g id="noun_test_1243631" transform="translate(-3.288 -1.947)">
+      <path id="Path_6754" data-name="Path 6754" d="M42.288,7.694H31.6a4.154,4.154,0,0,0-7.5,0H13.44V40.562H42.288ZM25.915,10.062l.2-.935a1.791,1.791,0,0,1,3.5,0l.2.935h2.292v2.19H23.623v-2.19ZM39.92,38.2H15.807V10.062h5.448v4.557H34.472V10.062H39.92Z" fill="#9fadc8"/>
+      <path id="Path_83885" data-name="Path 83885" d="M0,0H2.116L3.124-1.527l1.388-.938L9.33,0V3.367H0Z" transform="translate(23.376 9.555)" fill="#9fadc8"/>
+      <rect id="Rectangle_1793" data-name="Rectangle 1793" width="9.33" height="2.367" transform="translate(28.239 20.556)" fill="#9fadc8"/>
+      <path id="Path_6755" data-name="Path 6755" d="M29.293,40.822l-1.621-1.314L26.18,41.351l3.409,2.758,4.726-5.5-1.8-1.543Z" transform="translate(-7.714 -19.217)" fill="#9fadc8"/>
+      <rect id="Rectangle_1794" data-name="Rectangle 1794" width="9.33" height="2.367" transform="translate(28.041 29.855)" fill="#9fadc8"/>
+      <path id="Path_6756" data-name="Path 6756" d="M31.474,61.21,29.481,63.2,27.493,61.21,25.82,62.883l1.988,1.992L25.82,66.864l1.673,1.673,1.988-1.988,1.992,1.988,1.673-1.673-1.988-1.988,1.988-1.992Z" transform="translate(-7.496 -33.833)" fill="#9fadc8"/>
+    </g>
+  </g>
+</svg>
